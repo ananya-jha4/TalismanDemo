@@ -1,7 +1,10 @@
+threshold: medium
 
 fileignoreconfig:
 - filename: secrets.txt
   checksum: 7bf401e6e1553757ad7e157535ca4b09e0f36c980581ede8c3eaca793ce25d14
+- filename: danger.pem
+  checksum: 0b69295b5cd78a1708765f02758f0ddfb5d68b9d2a2c753043508a43020de673
 
 - filename: file2
   allowed_patterns: [key]
@@ -9,4 +12,3 @@ allowed_patterns:
 - keyword
 - pass
 
-threshold: medium
